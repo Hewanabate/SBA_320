@@ -37,14 +37,17 @@ export default () => {
 
   return (
     <div className='Home page'>
+      <hr />
       <h1> Fantastic Desert  </h1>
       <ul>
+      <div >
     {menus.map((menu, index)=>(
-      <div> 
+      <div className='contiar'> 
         <li key={index}> {menu.title} </li>
         <img src={menu.image} alt="food recipe" width="100" height="200"/>
       </div>
     ))}
+    </div>
    </ul>  
     </div>
   )
