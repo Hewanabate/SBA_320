@@ -1,0 +1,26 @@
+.Nav{
+    flex:1;
+   }
+
+.Nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Nav ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    color:#fcb900;
+}
+.Nav{
+    background-color: #313333;
+}
+.Nav ul li {
+    list-style: none;
+}
+
+.Nav ul li a:hover {
+    color:darkcyan
+}
